@@ -211,5 +211,15 @@ gpu_images/
 outputs/
 *.zip
 *.pdf
-*.json
-*.xlsx
+# ===== Project-specific outputs =====
+outputs_cpu/
+gpu_images/
+outputs/
+cache/
+uploaded_pdfs/
+
+# Generated evaluation reports (keep templates if any)
+*_accuracy_report.xlsx
+
+# Paddle OCR runtime output
+*.paddle.json
